@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+$fondo-gris: rgb(231, 231, 231);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel', serif;
+    scroll-behavior: smooth;
+}
+
+// Navbar
+
+nav {
+    font-size: 25px;
+}
+
+.navbar-nav {
+    margin-top: 2vh;
+    text-align: center;
+}
+
+.navbar-toggler {
+    margin: 2vh;
+}
+
+// Fin
+
+// Banner
+
+.banner {
+    background-image: url(/img/banner-coder.webp);
+    background-position: center;
+    background-size: cover;
+    height: 117vh;
+}
+
+// Fin
+
+// Header
+
+h1 {
+    text-align: center;
+    margin-top: 9vh;
+    color: white;
+}
+
+.tittle {
+    color: white;
+}
+
+.redes {
+    text-align: center;
+    font-size: 5vh;
+}
+
+img {
+    position: static;
+    border: 5px solid rgb(180, 169, 169);
+    border-radius: 500px;
+    height: 32vh;
+    width: 20vh;
+    margin-top: 13vh;
+}
+
+// Fin
+
+// Article
+
+article {
+    background-color: $fondo-gris;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+h2 {
+    text-align: center;
+}
+
+.paddingTop {
+    padding-top: 100px;
+}
+
+.paddingBottom {
+    padding-bottom: 90px;
+}
+
+.paddingBottom-titulo {
+    padding-bottom: 50px;
+}
+
+.marginCard {
+    margin-bottom: 4vh;
+}
+
+h3 {
+    text-align: center;
+}
+
+span {
+    color: blueviolet;
+}
+
+.btn__lorem{
+    background-color: transparent;
+    color: #007BFF;
+    border: 3px solid #007BFF;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+}
+
+section {
+    text-align: center;
+}
+
+.container {
+    background-color: $fondo-gris;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+.skills {
+    text-align: right;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.html {
+    background-color: salmon;
+    animation: fillhtml 2s forwards;
+}
+
+.bootstrap {
+    background-color: violet;
+    animation: fillbootstrap 2s forwards;
+}
+
+.css {
+    background-color: mediumseagreen;
+    animation: fillcss 2s forwards;
+}
+
+.sass {
+    background-color: pink;
+    animation: fillsass 2s forwards;
+}
+
+.javascript {
+    background-color: yellowgreen;
+    animation: filljavascript 2s forwards;
+}
+
+.react {
+    background-color: dodgerblue;
+    animation: fillreact 2s forwards;
+}
+
+.python {
+    background-color: cadetblue;
+    animation: fillpython 2s forwards;
+}
+
+.github {
+    background-color: orangered;
+    animation: fillgithub 2s forwards;
+}
+
+.git {
+    background-color: orange;
+    animation: fillgit 2s forwards;
+}
+
+@keyframes fillhtml {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes fillbootstrap {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes fillcss {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes fillsass {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes filljavascript {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+
+@keyframes fillreact {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 30%;
+    }
+}
+
+@keyframes fillpython {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes fillgithub {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes fillgit {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+.card__shadow {
+    -webkit-box-shadow: -3px 17px 32px -4px rgba(0, 0, 0, 0.73);
+    -moz-box-shadow: -3px 17px 32px -4px rgba(0, 0, 0, 0.73);
+    box-shadow: -3px 17px 32px -4px rgba(0, 0, 0, 0.73);
+}
+
+.parallax {
+    background-image: url("/img/parallax1.webp");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url("/img/parallax2.webp");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    background-image: url("/img/parallax3.webp");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn {
+    -webkit-box-shadow: -2px 12px 5px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: -2px 12px 5px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: -2px 12px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+.contacto__titulo {
+    padding-bottom: 25px;
+}
+
+.container-fluid{
+    text-align: center;
+    padding-left: 18px;
+}
+
+form {
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+.form-control {
+    width: 50vh;
+}
+
+textarea {
+    resize: none;
+}
+
+.boton1 {
+    text-decoration: none;
+    font-size: 20px;
+
+    &:hover {
+        background-color: transparent;
+    }
+}
+
+.form__shadow {
+    -webkit-box-shadow: -13px 26px 58px -25px rgba(0, 0, 0, 0.73);
+    -moz-box-shadow: -13px 26px 58px -25px rgba(0, 0, 0, 0.73);
+    box-shadow: -13px 26px 58px -25px rgba(0, 0, 0, 0.73);
+}
+
+textarea {
+    resize: none;
+}
+
+.subir {
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    color: #007BFF;
+    border: 3px solid #007BFF;
+    position: fixed;
+    right: 20px;
+    bottom: 90px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+}
+
+.subir:hover {
+    color: #adc5cf;
+    border-color: #adc5cf;
+}
+
+// Fin
+
+// Footer
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 100%;
+    padding-bottom: 40px;
+    padding-top: 25px;
+}
+
+.footer__items {
+    margin-left: 2vh;
+    margin-bottom: 4vh;
+}
+
+.footer__items--iframe {
+    margin-left: 2vh;
+    margin-bottom: 3vh;
+}
+
+// Fin
